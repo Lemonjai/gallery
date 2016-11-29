@@ -11,6 +11,7 @@
  * It is generally better to create a new file per style scope.
  *
  *= require_tree .
+ *= require font-awesome
  *= require_self
  */
 
@@ -39,3 +40,4 @@ body {
 
 @import 'navbar';
 @import 'normalise';
+@import "font-awesome";
