@@ -13,3 +13,29 @@
  *= require_tree .
  *= require_self
  */
+
+body {
+  font-family: "Proxima Nova";
+  font-weight: 100;
+}
+
+.clearfix:before, .clearfix:after {
+  content: " ";
+  display: table;
+}
+
+.clearfix:after {
+  clear: both;
+}
+
+.button {
+  border: 1px solid #9B9B9B;
+  padding: .7rem 1.25rem;
+  border-radius: .3rem;
+  outline: none;
+  background: white;
+  color: #9B9B9B;
+}
+
+@import 'navbar';
+@import 'normalise';

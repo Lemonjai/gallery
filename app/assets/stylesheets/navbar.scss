@@ -1,0 +1,33 @@
+header {
+  padding: 2.5em 3%;
+  border-bottom: 1px solid #e9e9e9;
+  #logo {
+    font-weight: 700;
+    font-size: .8rem;
+    text-transform: uppercase;
+    border: 2px solid #e9e9e9;
+    padding: .75em 1rem;
+    
+    float: left;
+    a {
+      color: #333233;     
+      text-decoration: none;
+      &:hover {
+        color: #50A7C7;
+      }
+    }
+  }
+
+  nav {
+    float: right;    
+    a {
+      margin: 0 1rem;
+      font-size: 1rem;
+      color: #9B9B9B;
+      text-decoration: none;
+      &:hover {
+        color: #50A7C7;
+      }
+    }
+  }
+}
