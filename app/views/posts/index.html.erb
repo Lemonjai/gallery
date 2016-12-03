@@ -2,5 +2,12 @@
 <p><%= link_to "Add Post", new_post_path %></p>
 
 <% @posts.each do |post| %>
-  <h2><%= link_to post.title, post %></h2>
+  <div class="card">
+    <%= image_tag "men.jpeg", :style => "width: 100%" %>
+    <div class="container">
+      <h4><b><%= link_to post.title, post %></b></h4>
+      <p>Design</p>
+    </div>  
+  </div>
+  <br>
 <% end %>
