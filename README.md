@@ -1,24 +1,17 @@
-# README
+# README for αβ Fashions
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+This project is to help fashion designers, trailors and etc..whom work in / or try to get into the fashion industry. This promotes their designs both their drawings and final product to consumers.
 
-Things you may want to cover:
+Features in the website:
 
-* Ruby version
+* Users registration and classifications as either their status is β(beta) or α(Alpha)
 
-* System dependencies
+* Dashboard system
 
-* Configuration
+* Ability to share to the social media platform
 
-* Database creation
+* Personal signatures of the person design
 
-* Database initialization
+* Ability to get messages from people whom are interested
 
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+* Ability to store their designs and acts as portfolio for them
