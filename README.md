@@ -17,7 +17,7 @@ Features in the website:
 * Ability to store their designs and acts as portfolio for them
 
 
-# Logs Dec 4 2016
+### Logs Dec 4 2016
 
 * Add the styling for the index page for most view, newest and most shared
 
