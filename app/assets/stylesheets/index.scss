@@ -2,12 +2,7 @@
   float: left;
 }
 
-.col-1{
-  width: 45%;
+.col-1, .col-2, .col-3{
+  width: 33%;
   padding: 0 5% 0 2.5%;
-}
-
-.col-2, .col-3{
-  width: 27.5%;
-  padding: 0 2.5%;
 }

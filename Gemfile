@@ -28,6 +28,9 @@ gem 'thor', '0.19.1'
 gem "font-awesome-rails"
 
 gem 'carrierwave'
+gem 'mini_magick'
+
+gem 'devise'
 
 # Use Redis adapter to run Action Cable in production
 # gem 'redis', '~> 3.0'
