@@ -15,3 +15,18 @@ Features in the website:
 * Ability to get messages from people whom are interested
 
 * Ability to store their designs and acts as portfolio for them
+
+
+# Logs Dec 4 2016
+
+* Add the styling for the index page for most view, newest and most shared
+
+* Add the carrierwave gem and implement it
+
+* Add the styling for the cards
+
+* Add the CRUD for posting
+
+* Add the devise gem
+
+* Add the navbar and footer
