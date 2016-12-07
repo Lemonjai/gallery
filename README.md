@@ -24,6 +24,10 @@ Features in the website:
 
 * Configured the basic for the devise
 
+* Denied access for unauthorized users
+
+* Denied access for unauthorized actions for post from other users & non-users
+
 ### Dec 4, 2016
 
 * Add the styling for the index page for most view, newest and most shared
