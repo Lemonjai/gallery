@@ -13,7 +13,7 @@
         <div class="container">
           <h4><b><%= link_to post.title, post %></b></h4>
           <p>Design</p>
-          <p><%= post.user.fname %></p>
+          <p><%= post.user.fname if post.user %></p>
         </div>  
       </div>
       <br>
