@@ -18,13 +18,13 @@ Features in the website:
 
 ## Logs
 
-### Dec 6 2016
+### Dec 6, 2016
 
 * Add the devise gem
 
 * Configured the basic for the devise
 
-### Dec 4 2016
+### Dec 4, 2016
 
 * Add the styling for the index page for most view, newest and most shared
 
