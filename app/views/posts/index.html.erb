@@ -1,6 +1,7 @@
-<p><%= link_to "Add Post", new_post_path %></p>
-
 <div class="wrapper clearfix">
+  <% if user_signed_in? %>
+    <p><%= link_to "Add Post", new_post_path %></p>
+  <% end %>
   <div class="col-1 homepage_content">
     <h3>Most Shared</h3>
     <p>Filler</p>
