@@ -18,6 +18,14 @@ Features in the website:
 
 ## Logs
 
+### Dec 8, 2016
+
+* Add the dashboard side menu
+
+* Add the styling for the dashboard and contents
+
+* User log in will get a different style of menu
+
 ### Dec 6, 2016
 
 * Add the devise gem
