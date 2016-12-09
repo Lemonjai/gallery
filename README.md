@@ -26,6 +26,8 @@ Features in the website:
 
 * User log in will get a different style of menu
 
+* 
+
 ### Dec 6, 2016
 
 * Add the devise gem
