@@ -1,7 +1,7 @@
 <div class="icon-bar">
-  <a class="active" href="#"><i class="fa fa-home"></i></a> 
+  <%= link_to root_path do %><span class="fa fa-home"></span><% end %>
   <a href="#"><i class="fa fa-search"></i></a> 
-  <a href="#"><i class="fa fa-envelope"></i></a> 
-  <a href="#"><i class="fa fa-globe"></i></a>
-  <a href="#"><i class="fa fa-trash"></i></a> 
+  <a href="#"><i class="fa fa-envelope"></i></a>
+  <%= link_to edit_user_registration_path do %><span class="fa fa-cogs"></span><% end %>
+  <%= link_to destroy_user_session_path, :method => :delete do %><span class="fa fa-sign-out"></span><% end %>
 </div>

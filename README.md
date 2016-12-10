@@ -18,6 +18,16 @@ Features in the website:
 
 ## Logs
 
+### Dec 9, 2016
+
+* Updated the dashboard menu
+
+* Link the log out menu
+
+* Link the settings for the menu
+
+* Link the home for the menu
+
 ### Dec 8, 2016
 
 * Add the dashboard side menu
@@ -25,8 +35,6 @@ Features in the website:
 * Add the styling for the dashboard and contents
 
 * User log in will get a different style of menu
-
-* 
 
 ### Dec 6, 2016
 
