@@ -1,24 +1,28 @@
 <div class="wrapper clearfix">
-  <div class="col-1 homepage_content">
-    <h3>Most Shared</h3>
-    <p>Filler</p>
-  </div>
-  <div class="col-2 homepage_content">
-    <h3>Newest Ideas</h3>
-    <% @posts.each do |post| %>
-      <div class="card">
-        <%= image_tag "men.jpeg", :style => "width: 100%" %>
-        <div class="container">
-          <h4><b><%= link_to post.title, post %></b></h4>
-          <p>Design</p>
-          <p><%= post.user.fname if post.user %></p>
-        </div>  
-      </div>
-      <br>
-    <% end %>
-  </div>
-  <div class="col-3 homepage_content">
-    <h3>Most Viewed</h3>
-    <p>Filler</p>
-  </div>
+  <% if user_signed_in? %>
+    <%= render 'posts/analytics' %>
+  <% else %>
+    <div class="col-1 homepage_content">
+      <h3>Most Shared</h3>
+      <p>Filler</p>
+    </div>
+    <div class="col-2 homepage_content">
+      <h3>Newest Ideas</h3>
+      <% @posts.each do |post| %>
+        <div class="card">
+          <%= image_tag "men.jpeg", :style => "width: 100%" %>
+          <div class="container">
+            <h4><b><%= link_to post.title, post %></b></h4>
+            <p>Design</p>
+            <p><%= post.user.fname if post.user %></p>
+          </div>  
+        </div>
+        <br>
+      <% end %>
+    </div>
+    <div class="col-3 homepage_content">
+      <h3>Most Viewed</h3>
+      <p>Filler</p>
+    </div>
+  <% end %>
 </div>
