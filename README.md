@@ -18,6 +18,14 @@ Features in the website:
 
 ## Logs
 
+### Dec 15, 2016
+
+* Updated each post with comment
+
+* User cannot comment without signing in
+
+* Each comment is specific to each user
+
 ### Dec 9, 2016
 
 * Updated the dashboard menu

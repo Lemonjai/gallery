@@ -1,6 +1,26 @@
 <h1><%= @post.title %></h1>
 <p><%= @post.link %></p>
 <p><%= @post.desc %></p>
+
+<div id="comment">
+  <h2 class="comment_count">
+    <%= pluralize(@post.comments.count, "Comment") %>
+  </h2>
+  <% @comments.each do |comment| %>
+    <div class="comment">
+       <p class="username">
+        <%= comment.user.name %>
+      </p>
+      <p class="content">
+        <%= comment.content %>
+      </p>
+    </div>
+  <% end %>
+
+  <%= render 'comments/form' %>
+</div>
+
+
 <!-- Check post functions for users-->
 <%= link_to "Home", root_path %>
 <% if current_user == @post.user %>

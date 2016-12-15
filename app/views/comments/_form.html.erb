@@ -1,0 +1,8 @@
+<%= form_for [@post, @post.comments.build] do |f| %>
+  <div class="field">
+    <%= f.label :content, "Replay to thread" %><br>
+    <%= f.text_field :content %>
+  </div>
+
+  <%= f.submit class: "button" %>
+<% end %>
